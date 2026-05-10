@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WDD 231 | Home</title>
+
+    <meta name="description" content="Course home page for WDD231">
+    <meta name="author" content="Your Name">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <div class="logo-area">
+        <img src="images/logo.svg" alt="Site Logo">
+        <span>Your Name</span>
+    </div>
+
+    <button id="menu"></button>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h1>Home</h1>
+
+    <section class="card">
+        <h2>About Me</h2>
+        <p>
+            Write a short introduction about yourself here.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>Student Photo</h2>
+        <img src="images/profile.jpg" alt="Student Photo">
+    </section>
+
+    <section class="card">
+        <h2>Web and Computer Programming Certificate</h2>
+
+        <div class="buttons">
+            <button id="all">All Courses</button>
+            <button id="wdd">WDD Courses</button>
+            <button id="cse">CSE Courses</button>
+        </div>
+
+        <div id="courses"></div>
+
+        <p id="credits"></p>
+    </section>
+</main>
+
+<footer>
+    <div class="socials">
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+    </div>
+
+    <p>
+        © <span id="year"></span> Mosa Molapo | Lesotho
+    </p>
+
+    <p id="lastModified"></p>
+</footer>
+
+</body>
+</html>
