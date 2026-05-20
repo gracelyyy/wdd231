@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Sunrise Bakery",
+        "address": "12 Main Street, Maseru",
+        "phone": "+266 5555 1111",
+        "website": "https://sunrisebakery.com",
+        "image": "images/bakery.webp",
+        "membership": 3,
+        "description": "Fresh baked goods and desserts."
+    },
+    {
+        "name": "Tech Solutions",
+        "address": "45 Kingsway Road, Maseru",
+        "phone": "+266 5555 2222",
+        "website": "https://techsolutions.com",
+        "image": "images/tech.webp",
+        "membership": 2,
+        "description": "IT support and web services."
+    },
+    {
+        "name": "Mountain Café",
+        "address": "8 Pioneer Road, Maseru",
+        "phone": "+266 5555 3333",
+        "website": "https://mountaincafe.com",
+        "image": "images/cafe.webp",
+        "membership": 1,
+        "description": "Coffee shop and local meals."
+    },
+    {
+        "name": "Elite Fitness",
+        "address": "22 Market Avenue, Maseru",
+        "phone": "+266 5555 4444",
+        "website": "https://elitefitness.com",
+        "image": "images/fitness.webp",
+        "membership": 2,
+        "description": "Gym and wellness center."
+    },
+    {
+        "name": "Green Gardens",
+        "address": "67 Garden Lane, Maseru",
+        "phone": "+266 5555 5555",
+        "website": "https://greengardens.com",
+        "image": "images/garden.webp",
+        "membership": 1,
+        "description": "Landscaping and plant services."
+    },
+    {
+        "name": "Skyline Media",
+        "address": "90 Central Street, Maseru",
+        "phone": "+266 5555 6666",
+        "website": "https://skylinemedia.com",
+        "image": "images/media.webp",
+        "membership": 3,
+        "description": "Marketing and advertising agency."
+    },
+    {
+        "name": "Urban Fashion",
+        "address": "11 Mall Road, Maseru",
+        "phone": "+266 5555 7777",
+        "website": "https://urbanfashion.com",
+        "image": "images/fashion.webp",
+        "membership": 2,
+        "description": "Modern clothing and accessories."
+    }
+]
