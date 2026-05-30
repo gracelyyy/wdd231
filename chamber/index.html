@@ -6,20 +6,24 @@
 
     <title>Maseru Chamber of Commerce | Supporting Local Business Growth</title>
 
-    <meta name="description" content="The Maseru Chamber of Commerce connects businesses, entrepreneurs, and community leaders through networking, events, and resources that support economic growth in Maseru.">
+    <meta name="description" content="The Maseru Chamber of Commerce connects local businesses through networking, events, and resources that support economic growth in Maseru.">
 
     <meta name="author" content="Grace M">
 
     <meta property="og:title" content="Maseru Chamber of Commerce – Connecting Business and Community">
     <meta property="og:description" content="Explore local businesses, upcoming events, and valuable opportunities to network, collaborate, and grow with the Maseru Chamber of Commerce.">
-    <meta property="og:image" content="https://yourusername.github.io/wdd231/chamber/images/hero.webp">
-    <meta property="og:url" content="https://yourusername.github.io/wdd231/chamber/index.html">
+
+    <meta property="og:image" content="https://YOURUSERNAME.github.io/wdd231/chamber/images/hero.webp">
+
+    <meta property="og:url" content="https://YOURUSERNAME.github.io/wdd231/chamber/index.html">
+
     <meta property="og:type" content="website">
 
     <link rel="icon" href="favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/normalize.css">
@@ -36,13 +40,13 @@
 <header>
     <img src="images/logo.webp" alt="Maseru Chamber of Commerce Logo" width="80">
     <div>
-        <h1>Maseru Chamber of Commerce</h1>
+        <p>Maseru Chamber of Commerce</p>
         <p>Supporting Local Business Growth</p>
     </div>
 </header>
 
 <nav>
-    <button id="menu" aria-label="Menu"></button>
+    <button id="menu" aria-label="Open Navigation Menu"></button>
 
     <ul class="navigation">
         <li><a href="index.html" class="active">Home</a></li>
@@ -54,16 +58,23 @@
 
 <main>
 
+    <h1>Maseru Chamber of Commerce</h1>
+
     <section class="hero">
         <img src="images/hero.webp" alt="Businesses and professionals in Maseru">
+
         <div class="hero-content">
             <h2>Building a Strong Business Community</h2>
-            <a href="join.html" class="cta-button">Join the Chamber</a>
+
+            <a href="join.html" class="cta-button">
+                Join the Chamber
+            </a>
         </div>
     </section>
 
     <section class="events">
         <h2>Current Events</h2>
+
         <p>
             Join local business leaders at our monthly networking event.
             Learn about new opportunities, partnerships, and community initiatives.
@@ -97,22 +108,12 @@
 </main>
 
 <footer>
-    <p>
-        &copy; <span id="year">2026</span> Maseru Chamber of Commerce
-    </p>
+    <p>&copy; <span id="year"></span> Maseru Chamber of Commerce</p>
 
-    <p>
-        Grace M | WDD 231 Project
-    </p>
+    <p>Grace M | WDD 231</p>
 
     <p id="lastModified"></p>
 </footer>
-
-<script>
-document.getElementById("year").textContent = new Date().getFullYear();
-document.getElementById("lastModified").textContent =
-    `Last Modification: ${document.lastModified}`;
-</script>
 
 </body>
 </html>
