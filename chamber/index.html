@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Maseru Chamber of Commerce Home Page">
+    <meta name="author" content="Your Name">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Maseru Chamber of Commerce</title>
+
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <img src="images/logo.webp" alt="Chamber Logo" width="75">
+    <span>Maseru Chamber of Commerce</span>
+</header>
+
+<nav>
+    <button id="menu"></button>
+    <ul class="navigation">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="discover.html">Discover</a></li>
+    </ul>
+</nav>
+
+<main>
+
+    <section class="hero">
+        <img src="images/hero.webp" alt="Maseru Business Community">
+        <a href="join.html" class="cta-button">
+            Join the Chamber
+        </a>
+    </section>
+
+    <section class="events">
+        <h2>Current Events</h2>
+        <p>
+            Join us for the Maseru Business Networking Expo
+            this month and connect with local entrepreneurs
+            and industry leaders.
+        </p>
+    </section>
+
+    <section class="weather">
+        <h2>Weather</h2>
+
+        <p>Current Temperature:
+            <span id="current-temp"></span>°C
+        </p>
+
+        <p id="weather-desc"></p>
+
+        <h3>3-Day Forecast</h3>
+
+        <ul id="forecast"></ul>
+    </section>
+
+    <section class="spotlights">
+        <h2>Business Spotlights</h2>
+
+        <div id="spotlight-container"></div>
+    </section>
+
+</main>
+
+<footer>
+    <p>
+        © <span id="year"></span>
+        Maseru Chamber of Commerce
+    </p>
+</footer>
+
+</body>
+</html>
