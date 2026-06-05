@@ -2,14 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Thank you for joining the Maseru Chamber of Commerce">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
 
-    <title>Thank You | Maseru Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/chamber.css">
 
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <script defer>
+        document.addEventListener("DOMContentLoaded", () => {
+            const params = new URLSearchParams(window.location.search);
+
+            document.getElementById("fname").textContent =
+                params.get("firstname");
+
+            document.getElementById("lname").textContent =
+                params.get("lastname");
+
+            document.getElementById("email").textContent =
+                params.get("email");
+
+            document.getElementById("phone").textContent =
+                params.get("phone");
+
+            document.getElementById("business").textContent =
+                params.get("business");
+
+            document.getElementById("timestamp").textContent =
+                params.get("timestamp");
+        });
+    </script>
 </head>
 <body>
 
@@ -25,32 +45,25 @@
 </nav>
 
 <main>
-    <h2>Thank You for Your Application!</h2>
 
-    <p>Your membership application has been received.</p>
+    <h2>Thank You for Applying!</h2>
 
-    <section class="application-info">
-        <h3>Application Details</h3>
+    <p>We have received your membership application.</p>
 
+    <div class="submission-info">
         <p><strong>First Name:</strong> <span id="fname"></span></p>
-
         <p><strong>Last Name:</strong> <span id="lname"></span></p>
-
         <p><strong>Email:</strong> <span id="email"></span></p>
-
         <p><strong>Phone:</strong> <span id="phone"></span></p>
+        <p><strong>Business:</strong> <span id="business"></span></p>
+        <p><strong>Date Submitted:</strong> <span id="timestamp"></span></p>
+    </div>
 
-        <p><strong>Organization:</strong> <span id="organization"></span></p>
-
-        <p><strong>Submission Date:</strong> <span id="timestamp"></span></p>
-    </section>
 </main>
 
 <footer>
     <p>&copy; 2026 Maseru Chamber of Commerce</p>
 </footer>
-
-<script src="scripts/thankyou.js" defer></script>
 
 </body>
 </html>
