@@ -1,0 +1,37 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #D4AF37;
+}
+
+section {
+    background-color: #F8D7DA;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+pre {
+    background-color: #ffffff;
+    padding: 15px;
+    overflow-x: auto;
+    border-radius: 5px;
+}
+
+ul {
+    padding-left: 20px;
+}
