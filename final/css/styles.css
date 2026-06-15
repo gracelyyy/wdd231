@@ -1,0 +1,298 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #fffafc;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+}
+
+
+header {
+    background-color: #f8d7e3;
+    padding: 1rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-container h1 {
+    color: #5a2d3b;
+}
+
+#menu-btn {
+    margin-top: 1rem;
+    border: none;
+    background: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#navigation {
+    display: none;
+}
+
+#navigation.open {
+    display: block;
+}
+
+#navigation ul {
+    list-style: none;
+}
+
+#navigation li {
+    margin: .5rem 0;
+}
+
+#navigation a {
+    color: #333;
+    font-weight: bold;
+}
+
+.active {
+    color: #b34d74;
+}
+
+
+.hero {
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.hero-text h2 {
+    margin-bottom: 1rem;
+    color: #5a2d3b;
+}
+
+.hero-text p {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #b34d74;
+    color: white;
+    padding: .8rem 1.2rem;
+    border-radius: 5px;
+}
+
+
+section {
+    margin: 3rem 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #5a2d3b;
+}
+
+
+.featured-grid,
+.benefit-grid,
+.wig-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.card,
+.benefit,
+.wig-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,.1);
+}
+
+.card h3,
+.wig-card h3 {
+    margin: .5rem 0;
+}
+
+.wig-card button {
+    margin-top: .5rem;
+    margin-right: .5rem;
+    padding: .5rem .8rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #b34d74;
+    color: white;
+}
+
+
+.testimonial-container {
+    display: grid;
+    gap: 1rem;
+}
+
+blockquote {
+    background: white;
+    padding: 1rem;
+    border-left: 5px solid #b34d74;
+}
+
+cite {
+    display: block;
+    margin-top: .5rem;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+.page-banner {
+    text-align: center;
+}
+
+.controls {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.controls select {
+    padding: .5rem;
+}
+
+
+form {
+    max-width: 700px;
+    margin: auto;
+}
+
+fieldset {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: .7rem;
+    margin-top: .3rem;
+}
+
+input[type="submit"] {
+    background-color: #b34d74;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.confirmation {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+#booking-details {
+    margin: 2rem 0;
+    text-align: left;
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+
+dialog {
+    width: 90%;
+    max-width: 500px;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+dialog::backdrop {
+    background: rgba(0,0,0,.5);
+}
+
+#closeModal {
+    margin-top: 1rem;
+    padding: .6rem 1rem;
+    border: none;
+    background-color: #b34d74;
+    color: white;
+    cursor: pointer;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #f8d7e3;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #5a2d3b;
+}
+
+
+@media (min-width: 768px) {
+
+    #menu-btn {
+        display: none;
+    }
+
+    #navigation {
+        display: block;
+    }
+
+    #navigation ul {
+        display: flex;
+        gap: 2rem;
+        margin-top: 1rem;
+    }
+
+    .hero {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .featured-grid,
+    .benefit-grid,
+    .wig-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .testimonial-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
