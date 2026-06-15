@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mosa Molapo">
+    <meta name="description" content="Book a wig installation appointment with Laid with Grace.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Book an Appointment | Laid with Grace">
+    <meta property="og:description" content="Schedule your wig installation or consultation today.">
+    <meta property="og:image" content="https://your-github-username.github.io/wdd231/final/images/logo.webp">
+    <meta property="og:url" content="https://your-github-username.github.io/wdd231/final/booking.html">
+
+    <title>Laid with Grace | Book Appointment</title>
+
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script type="module" src="js/main.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <div class="logo-container">
+        <img src="images/logo.webp" alt="Laid with Grace Logo" width="80" height="80">
+        <h1>Laid with Grace</h1>
+    </div>
+
+    <button id="menu-btn" aria-label="Open Navigation Menu">
+        ☰
+    </button>
+
+    <nav id="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="collection.html">Collections</a></li>
+            <li><a href="booking.html" class="active">Book Appointment</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section class="page-banner">
+        <h2>Book Your Appointment</h2>
+        <p>
+            Schedule your wig installation, styling session, or consultation.
+        </p>
+    </section>
+
+    <section class="booking-form-section">
+
+        <form method="get" action="thankyou.html">
+
+            <fieldset>
+                <legend>Customer Information</legend>
+
+                <label>
+                    Full Name*
+                    <input
+                        type="text"
+                        name="fullname"
+                        required
+                        autocomplete="name">
+                </label>
+
+                <label>
+                    Phone Number*
+                    <input
+                        type="tel"
+                        name="phone"
+                        required
+                        autocomplete="tel">
+                </label>
+
+                <label>
+                    Email Address*
+                    <input
+                        type="email"
+                        name="email"
+                        required
+                        autocomplete="email">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Appointment Details</legend>
+
+                <label>
+                    Select Service*
+                    <select name="service" required>
+                        <option value="">Choose a Service</option>
+                        <option value="Wig Installation">Wig Installation</option>
+                        <option value="Wig Revamp">Wig Revamp</option>
+                        <option value="Wig Styling">Wig Styling</option>
+                        <option value="Consultation">Consultation</option>
+                    </select>
+                </label>
+
+                <label>
+                    Preferred Wig Style
+                    <select name="wigstyle">
+                        <option value="">Select a Style</option>
+                        <option value="Body Wave">Body Wave</option>
+                        <option value="Straight HD">Straight HD</option>
+                        <option value="Deep Wave">Deep Wave</option>
+                        <option value="Curly Wig">Curly Wig</option>
+                    </select>
+                </label>
+
+                <label>
+                    Appointment Date*
+                    <input
+                        type="date"
+                        name="appointmentdate"
+                        required>
+                </label>
+
+                <label>
+                    Additional Notes
+                    <textarea
+                        name="notes"
+                        rows="5"
+                        placeholder="Tell us anything important about your appointment..."></textarea>
+                </label>
+            </fieldset>
+
+            <input type="submit" value="Book Appointment">
+
+        </form>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; <span id="year"></span> Laid with Grace | Mosa Molapo</p>
+
+    <p>
+        <a href="attributions.html">Attributions</a> |
+        <a href="https://youtube.com/" target="_blank">Project Video</a>
+    </p>
+
+    <p id="lastModified"></p>
+</footer>
+
+</body>
+</html>
