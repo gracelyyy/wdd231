@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Body Wave Luxury Wig",
+    "length": "24 inches",
+    "texture": "Body Wave",
+    "price": "M1800",
+    "image": "images/bodywave.webp"
+  },
+  {
+    "id": 2,
+    "name": "Straight HD Lace Wig",
+    "length": "30 inches",
+    "texture": "Straight",
+    "price": "M2500",
+    "image": "images/straight.webp"
+  },
+  {
+    "id": 3,
+    "name": "Deep Wave Glam Wig",
+    "length": "26 inches",
+    "texture": "Deep Wave",
+    "price": "M2200",
+    "image": "images/deepwave.webp"
+  },
+  {
+    "id": 4,
+    "name": "Curly Bounce Wig",
+    "length": "20 inches",
+    "texture": "Curly",
+    "price": "M1700",
+    "image": "images/curly1.webp"
+  },
+  {
+    "id": 5,
+    "name": "Silky Straight Premium Wig",
+    "length": "28 inches",
+    "texture": "Straight",
+    "price": "M2600",
+    "image": "images/straight2.webp"
+  },
+  {
+    "id": 6,
+    "name": "Loose Wave Soft Wig",
+    "length": "24 inches",
+    "texture": "Body Wave",
+    "price": "M2000",
+    "image": "images/bodywave2.webp"
+  },
+  {
+    "id": 7,
+    "name": "Kinky Curly Natural Wig",
+    "length": "18 inches",
+    "texture": "Curly",
+    "price": "M1600",
+    "image": "images/curly2.webp"
+  },
+  {
+    "id": 8,
+    "name": "HD Lace Deep Wave Wig",
+    "length": "30 inches",
+    "texture": "Deep Wave",
+    "price": "M2800",
+    "image": "images/deepwave2.webp"
+  },
+  {
+    "id": 9,
+    "name": "Classic Straight Bob Wig",
+    "length": "14 inches",
+    "texture": "Straight",
+    "price": "M1500",
+    "image": "images/bob.webp"
+  },
+  {
+    "id": 10,
+    "name": "Voluminous Body Wave Wig",
+    "length": "28 inches",
+    "texture": "Body Wave",
+    "price": "M2400",
+    "image": "images/bodywave3.webp"
+  },
+  {
+    "id": 11,
+    "name": "Soft Curly Glam Wig",
+    "length": "22 inches",
+    "texture": "Curly",
+    "price": "M1900",
+    "image": "images/curly3.webp"
+  },
+  {
+    "id": 12,
+    "name": "Silky Bone Straight Wig",
+    "length": "32 inches",
+    "texture": "Straight",
+    "price": "M3000",
+    "image": "images/straight3.webp"
+  },
+  {
+    "id": 13,
+    "name": "Luxury Deep Wave 360 Wig",
+    "length": "26 inches",
+    "texture": "Deep Wave",
+    "price": "M2700",
+    "image": "images/deepwave3.webp"
+  },
+  {
+    "id": 14,
+    "name": "Natural Curl Afro Wig",
+    "length": "16 inches",
+    "texture": "Curly",
+    "price": "M1400",
+    "image": "images/afro.webp"
+  },
+  {
+    "id": 15,
+    "name": "Signature Body Wave HD Wig",
+    "length": "30 inches",
+    "texture": "Body Wave",
+    "price": "M2900",
+    "image": "images/bodywave4.webp"
+  }
+]
